@@ -1,26 +1,73 @@
 @import "tailwindcss";
 
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
+ 
+   --color-font:#CCD6F6;
+     --color-hover:#64FFDA;
+
+     --border-color:#233554;
+     --second-color-font:#7D87A4;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-font: var(--color-font);
+  --color-hover: var(--color-hover);
+  --border-color: var(--border-color);
+
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #0A192F;
     --foreground: #ededed;
+
+     --color-font:#CCD6F6;
+     --color-hover:#64FFDA;
+
+     --border-color:#233554;
   }
 }
 
 body {
   background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--color-font);
+ font-family: var(--font-ntr), sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+.section-header:after {
+    content: "";
+    background-color: var(--border-color);
+    width: 300px;
+    height: 1px;
+    margin-top: 10px;
+    margin-left: 20px;
+    display: block;
+}
+.section-long-header:after {
+    content: "";
+    background-color: var(--border-color);
+    width: 600px;
+    height: 1px;
+    margin-top: 30px;
+    margin-left: 20px;
+    display: block;
+}
+
+
+.fixed-top {
+    z-index: 1030;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+  /*   */
