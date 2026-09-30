@@ -43,7 +43,7 @@ export default function AboutSection() {
           {/* 💻 DESKTOP: md:text-lg scales the text up gracefully for large laptop displays */}
           <p className=" text-xl md:text-lg pt-5 w-full lg:w-[90%] text-(--second-color-font) text-justify ">
             I am currently a{" "}
-            <span className="font-bold text-hover">Front End Developer</span>{" "}
+            <span className="font-bold text-hover">Full Stack Developer</span>{" "}
             with amazing skills and experience. I help you build a product,
             feature or website. Look through some of my work and experience.
           </p>
@@ -51,7 +51,7 @@ export default function AboutSection() {
         
         <div className="about-description">
           <p className="text-base md:text-lg pt-5 w-full lg:w-[90%] text-(--second-color-font) text-justify leading-relaxed">
-            Here are some technologies I have been working with:
+            Here are some technologies and design tools I have been working with:
           </p>
         </div>
         
@@ -86,6 +86,14 @@ export default function AboutSection() {
                 className="font-bold flex items-center gap-2 cursor-pointer transition-colors"
               >
                 <Play size={14} className="text-hover" />
+                Tailwind CSS
+              </motion.li>
+              <motion.li 
+                variants={itemVariants} 
+                whileHover={{ scale: 1.05, x: 5 }} 
+                className="font-bold flex items-center gap-2 cursor-pointer transition-colors"
+              >
+                <Play size={14} className="text-hover" />
                 JavaScript ES6+
               </motion.li>
               <motion.li 
@@ -103,6 +111,46 @@ export default function AboutSection() {
               >
                 <Play size={14} className="text-hover" />
                 Next.js
+              </motion.li>
+              <motion.li 
+                variants={itemVariants} 
+                whileHover={{ scale: 1.05, x: 5 }} 
+                className="font-bold flex items-center gap-2 cursor-pointer transition-colors"
+              >
+                <Play size={14} className="text-hover" />
+                Node.js
+              </motion.li>
+              <motion.li 
+                variants={itemVariants} 
+                whileHover={{ scale: 1.05, x: 5 }} 
+                className="font-bold flex items-center gap-2 cursor-pointer transition-colors"
+              >
+                <Play size={14} className="text-hover" />
+                Express.js
+              </motion.li>
+              <motion.li 
+                variants={itemVariants} 
+                whileHover={{ scale: 1.05, x: 5 }} 
+                className="font-bold flex items-center gap-2 cursor-pointer transition-colors"
+              >
+                <Play size={14} className="text-hover" />
+                MongoDB
+              </motion.li>
+              <motion.li 
+                variants={itemVariants} 
+                whileHover={{ scale: 1.05, x: 5 }} 
+                className="font-bold flex items-center gap-2 cursor-pointer transition-colors"
+              >
+                <Play size={14} className="text-hover" />
+                UI/UX Design
+              </motion.li>
+              <motion.li 
+                variants={itemVariants} 
+                whileHover={{ scale: 1.05, x: 5 }} 
+                className="font-bold flex items-center gap-2 cursor-pointer transition-colors"
+              >
+                <Play size={14} className="text-hover" />
+                Figma
               </motion.li>
             </motion.ul>
           </div>

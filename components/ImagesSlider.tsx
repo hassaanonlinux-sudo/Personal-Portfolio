@@ -29,6 +29,14 @@ const projects = [
     githubUrl: "https://github.com/hassaanonlinux-sudo/E-Commerce-Admin-Panel",
     liveUrl: "#",
   },
+  {
+    title: "SPACE X UI/UX CLONE",
+    description: "A UI/UX clone of SpaceX website.",
+    tech: "REACT / TAILWIND",
+    image: "/Images/SPACEX.png",
+    githubUrl: "https://github.com/hassaanonlinux-sudo/Space-x",
+    liveUrl: "#",
+  }
 ];
 
 export default function ProjectSlider() {

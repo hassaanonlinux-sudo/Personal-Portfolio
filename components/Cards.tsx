@@ -53,7 +53,7 @@ export default function ProjectGrid() {
           key={index}
           variants={cardVariants}
           whileHover={{ y: -6 }} // Smooth lift action exactly like Gazi's layout
-          className="bg-[#112240] p-6 rounded-xl flex flex-col justify-between min-h-[340px] transition-all duration-300 border border-transparent hover:border-slate-700/50 shadow-lg group"
+          className="bg-[#112240] p-6 rounded-xl flex flex-col justify-between min-h-85 transition-all duration-300 border border-transparent hover:border-slate-700/50 shadow-lg group mt-3"
         >
           {/* Top Panel: Header Icons */}
           <div>
