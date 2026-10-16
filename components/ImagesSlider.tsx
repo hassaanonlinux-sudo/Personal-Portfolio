@@ -6,6 +6,22 @@ import { RiGithubFill, RiFolder3Line } from "@remixicon/react";
 
 const projects = [
   {
+    title: "Chat GPT",
+    description: "A ChatGPT-inspired AI chatbot built with the MERN stack, Backend and Frontend.",
+    tech: "MERN PROJECT",
+    image: "/Images/chatgpt.png",
+    githubUrl: "https://github.com/hassaanonlinux-sudo/Chat-GPT",
+    liveUrl: "#",
+  },
+  {
+    title: "SPACE X UI/UX CLONE",
+    description: "A UI/UX clone of SpaceX website.",
+    tech: "REACT / TAILWIND",
+    image: "/Images/SPACEX.png",
+    githubUrl: "https://github.com/hassaanonlinux-sudo/Space-x",
+    liveUrl: "#",
+  },
+  {
     title: "JOB  APP ",
     description: "A job portal app for job seekers and employers. Users can browse and apply for jobs, and employers can manage job postings.",
     tech: "REACT / TAILWIND",
@@ -29,14 +45,7 @@ const projects = [
     githubUrl: "https://github.com/hassaanonlinux-sudo/E-Commerce-Admin-Panel",
     liveUrl: "#",
   },
-  {
-    title: "SPACE X UI/UX CLONE",
-    description: "A UI/UX clone of SpaceX website.",
-    tech: "REACT / TAILWIND",
-    image: "/Images/SPACEX.png",
-    githubUrl: "https://github.com/hassaanonlinux-sudo/Space-x",
-    liveUrl: "#",
-  }
+  
 ];
 
 export default function ProjectSlider() {
