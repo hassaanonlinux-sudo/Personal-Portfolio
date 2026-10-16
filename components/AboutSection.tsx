@@ -33,7 +33,7 @@ export default function AboutSection() {
       <div className="left w-full lg:max-w-xl">
         <div className="heading flex justify-start items-center">
           {/* Made header highly visible, clean, and bold */}
-          <h1 className="text-3xl md:text-5xl font-bold text-font)">/ about me</h1>
+          <h1 className="text-3xl md:text-5xl font-bold text-font">/ about me</h1>
           <div className=" hidden lg:block section-header"></div>
         </div>
         
@@ -46,7 +46,11 @@ export default function AboutSection() {
             <span className="font-bold text-hover">Full Stack Developer</span>{" "}
             with amazing skills and experience. I help you build a product,
             feature or website. Look through some of my work and experience.
+            <div className="pt-3 text-(--text-color2)  md:text-lg font-bold  ">
+              Loyalty is a two way street, if I am asking for it from you, then you are getting it from me {" "}
+            </div>
           </p>
+          
         </div>
         
         <div className="about-description">
@@ -157,7 +161,7 @@ export default function AboutSection() {
         
         
         <div className="line-about-me text-base md:text-lg pt-5 w-full lg:w-[90%] text-(--second-color-font) text-justify leading-relaxed">
-          <p>In my free time, I like to play football, and listen to music. And play way too many battle royale games.</p>
+          <p>In my free time, I like to play football, and love to play Chess and I am very ambitious about Solving World Problems Like Elon Musk😉. And play battle royale games too.</p>
         </div>
       </div>
 

@@ -46,7 +46,7 @@ export default function ProjectGrid() {
       whileInView="show"
       viewport={{ once: true, margin: "-40px" }}
       // Added max-w-sm on mobile to keep the stacked cards perfectly centered and neat on phone screens
-      className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-sm md:max-w-5xl px-4 md:px-0"
+      className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-sm md:max-w-5xl px-4 md:px-0 "
     >
       {archiveProjects.map((project, index) => (
         <motion.div
