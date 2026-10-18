@@ -3,6 +3,8 @@ import { useState } from "react";
 import { motion, AnimatePresence, type Variants } from "framer-motion";
 import { ChevronLeft, ChevronRight, ExternalLink } from "lucide-react";
 import { RiGithubFill, RiFolder3Line } from "@remixicon/react";
+import Image from 'next/image';
+
 
 const projects = [
   {
@@ -119,10 +121,13 @@ export default function ProjectSlider() {
               
               {/* Optional: Project Screenshot Slot to replicate her thumbnail layout */}
               <div className="w-full h-36 rounded-xl overflow-hidden mb-4 border border-slate-800 bg-slate-950">
-                <img 
-                  src={project.image} 
-                  alt={project.title} 
+                <Image
+                  src={project.image}
+                  alt={project.title}
                   className="w-full h-full object-cover opacity-80"
+                  width={300}
+                  height={300}
+                  
                 />
               </div>
 

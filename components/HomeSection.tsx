@@ -1,4 +1,5 @@
 import { Mail } from 'lucide-react';
+import Image from 'next/image';
 
 export default function HomeSection() {
   return (
@@ -13,10 +14,12 @@ export default function HomeSection() {
         {/* Left Side: Profile Image */}
         {/* Restored to your preferred desktop bounds (w-96 h-96) while staying beautifully compact on mobile devices */}
         <div className="w-[55%] sm:w-[40%] md:w-80 md:h-80 lg:w-96 lg:h-96 aspect-square shrink-0">
-            <img 
+            <Image 
               src="/Images/man.jpg" 
               alt="Hassaan Naveed"  
-              className="w-full h-full object-cover rounded-2xl shadow-xl hover:-translate-y-1 transition-transform duration-300" 
+              className="w-full h-full object-cover rounded-2xl shadow-xl hover:-translate-y-1 transition-transform duration-300"
+              width={300}
+              height={300} 
             />
         </div>
 
@@ -30,7 +33,7 @@ export default function HomeSection() {
             <div> 
                 {/* 🛠️ FIXED SYNTAX BUG: Changed your text-(...) variables to proper CSS bracket layout targets */}
                 <p className="text-base sm:text-lg lg:text-xl pt-3 w-full lg:w-[85%] text-[#8892b0] leading-relaxed text-center lg:text-left" >
-I am a full stack developer and AI enthusiast with a passion for creating innovative, intelligent web applications. I bring a unique blend of creativity, design, AI, and technical expertise to every single project I build.</p>
+I am a full stack developer who builds modern, intelligent web applications. I bring a unique blend of clean frontend design, robust backend architecture, and the practical integration of Al tools to every project I build</p>
             </div>
 
             <a href="mailto:hassaanonlinux@gmail.com" className="mt-6">

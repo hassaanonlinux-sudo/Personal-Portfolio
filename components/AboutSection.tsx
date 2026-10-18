@@ -1,6 +1,8 @@
 "use client";
 import { motion, Variants } from "framer-motion";
 import { Play } from "lucide-react";
+import Image from 'next/image';
+
 
 const containerVariants: Variants = {
   hidden: { opacity: 0 },
@@ -29,7 +31,7 @@ export default function AboutSection() {
       className="lg:min-h-[65vh] w-full flex flex-col lg:flex-row items-center justify-center px-6 md:px-12  py-20 lg:py-20 select-none scroll-mt-20"
     >
       {/* Left side text container */}
-      <div className="left w-full lg:max-w-xl">
+      <div className="left w-full lg:max-w-xl mr-12 ">
         <div className="heading flex justify-start items-center">
           {/* Made header highly visible, clean, and bold */}
           <h1 className="text-3xl md:text-5xl font-bold text-font">/ about me</h1>
@@ -43,9 +45,7 @@ export default function AboutSection() {
           <p className=" text-xl md:text-lg pt-5 w-full lg:w-[90%] text-(--second-color-font) text-justify ">
             I am currently a{" "}
             <span className="font-bold text-hover">Full Stack Developer</span>{" "}
-            with amazing skills and experience in AI development. I help you build a product,
-            feature or website with the integration of AI technologies. Look through some of my work and experience.
-            <div className="pt-3 text-(--text-color2)  md:text-lg font-bold  ">
+Full Stack Developer experienced in building web apps and integrating AI—not just to write code, but to build better products. From modern websites to complex features and AI-powered tools, I bring ideas to life.            <div className="pt-3 text-(--text-color2)  md:text-lg font-bold  ">
               Loyalty is a two way street, if I am asking for it from you, then you are getting it from me {" "}
             </div>
           </p>
@@ -165,11 +165,13 @@ export default function AboutSection() {
       </div>
 
       {/* Right side image container */}
-      <div className="right hidden lg:flex w-80 h-80 lg:w-96 lg:h-96 shrink-0">
-        <img
+      <div className="right hidden lg:flex w-80 h-80 lg:w-96 lg:h-96 shrink-0 ">
+        <Image
           src="/Images/man.jpg"
           alt="Hassaan profile illustration"
           className="w-full h-full object-cover rounded-2xl hover:-translate-y-1 transition-transform duration-300 shadow-xl"
+          width={300}
+          height={300}
         />
       </div>
     </section>
