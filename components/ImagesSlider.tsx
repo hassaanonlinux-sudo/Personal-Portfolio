@@ -11,7 +11,7 @@ const projects = [
     tech: "MERN PROJECT ",
     image: "/Images/chatgpt.png",
     githubUrl: "https://github.com/hassaanonlinux-sudo/Chat-GPT",
-    liveUrl: "zesty-cupcake-b4a056.netlify.app",
+    liveUrl: "https://zesty-cupcake-b4a056.netlify.app",
   },
   {
     title: "SPACE X UI/UX CLONE",
@@ -19,7 +19,7 @@ const projects = [
     tech: "REACT / TAILWIND",
     image: "/Images/SPACEX.png",
     githubUrl: "https://github.com/hassaanonlinux-sudo/Space-x",
-    liveUrl: "elegant-maamoul-c738ce.netlify.app",
+    liveUrl: "https://elegant-maamoul-c738ce.netlify.app",
   },
   {
     title: "JOB  APP ",
@@ -27,7 +27,7 @@ const projects = [
     tech: "REACT / TAILWIND",
     image: "/Images/JOB.png",
     githubUrl: "https://github.com/hassaanonlinux-sudo/JOB-APP",
-    liveUrl: "zesty-entremet-d3176b.netlify.app", // Add your live demo links here if you have them
+    liveUrl: "https://zesty-entremet-d3176b.netlify.app", // Add your live demo links here if you have them
   },
   {
     title: "Career Dashboard",
@@ -35,7 +35,7 @@ const projects = [
     tech: "REACT / TAILWIND",
     image: "/Images/career.png",
     githubUrl: "https://github.com/hassaanonlinux-sudo/Career-PK",
-    liveUrl: "luminous-mousse-cef1f3.netlify.app",
+    liveUrl: "https://luminous-mousse-cef1f3.netlify.app",
   },
   {
     title: "E-COMMERCE ADMIN DASHBOARD",
@@ -43,7 +43,7 @@ const projects = [
     tech: "REACT / TAILWIND",
     image: "/Images/ecommerce.png",
     githubUrl: "https://github.com/hassaanonlinux-sudo/E-Commerce-Admin-Panel",
-    liveUrl: "majestic-dragon-da29f4.netlify.app",
+    liveUrl: "https://majestic-dragon-da29f4.netlify.app",
   },
   
 ];
@@ -175,6 +175,15 @@ export default function ProjectSlider() {
                     className="text-slate-300 hover:text-[#64FFDA] transition-colors p-1"
                   >
                     <RiGithubFill size={24} />
+                  </a>
+                  <a
+                    href={projects[currentIndex].liveUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label={`Open ${projects[currentIndex].title} live deployment`}
+                    className="text-slate-300 hover:text-[#64FFDA] transition-colors p-1"
+                  >
+                    <ExternalLink size={20} />
                   </a>
                 </div>
               </div>
