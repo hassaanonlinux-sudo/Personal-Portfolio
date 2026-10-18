@@ -30,7 +30,7 @@ export default function HomeSection() {
             <div> 
                 {/* 🛠️ FIXED SYNTAX BUG: Changed your text-(...) variables to proper CSS bracket layout targets */}
                 <p className="text-base sm:text-lg lg:text-xl pt-3 w-full lg:w-[85%] text-[#8892b0] leading-relaxed text-center lg:text-left" >
-I am a full stack developer and UI/UX designer with a passion for creating innovative, user-friendly web applications. I bring a unique blend of creativity, design, and technical expertise to every project.                </p>
+I am a full stack developer and AI enthusiast with a passion for creating innovative, intelligent web applications. I bring a unique blend of creativity, design, AI, and technical expertise to every single project I build.</p>
             </div>
 
             <a href="mailto:hassaanonlinux@gmail.com" className="mt-6">
