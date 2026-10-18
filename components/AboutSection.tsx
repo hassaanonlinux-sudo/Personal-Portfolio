@@ -46,9 +46,9 @@ export default function AboutSection() {
             <span className="font-bold text-hover">Full Stack Developer</span>{" "}
             with amazing skills and experience. I help you build a product,
             feature or website. Look through some of my work and experience.
-            <p className="pt-3 text-(--text-color2)  md:text-lg font-bold  ">
+            <div className="pt-3 text-(--text-color2)  md:text-lg font-bold  ">
               Loyalty is a two way street, if I am asking for it from you, then you are getting it from me {" "}
-            </p>
+            </div>
           </p>
           
         </div>
