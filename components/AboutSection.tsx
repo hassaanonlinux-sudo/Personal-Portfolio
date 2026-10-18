@@ -45,7 +45,8 @@ export default function AboutSection() {
           <p className=" text-xl md:text-lg pt-5 w-full lg:w-[90%] text-(--second-color-font) text-justify ">
             I am currently a{" "}
             <span className="font-bold text-hover">Full Stack Developer</span>{" "}
-Full Stack Developer experienced in building web apps and integrating AI—not just to write code, but to build better products. From modern websites to complex features and AI-powered tools, I bring ideas to life.            <div className="pt-3 text-(--text-color2)  md:text-lg font-bold  ">
+Full Stack Developer experienced in building web apps and integrating AI—not just to write code, but to build better products. From modern websites to complex features and AI-powered tools, I bring ideas to life.       
+     <div className="pt-3 text-(--text-color2)  md:text-lg font-bold  ">
               Loyalty is a two way street, if I am asking for it from you, then you are getting it from me {" "}
             </div>
           </p>
