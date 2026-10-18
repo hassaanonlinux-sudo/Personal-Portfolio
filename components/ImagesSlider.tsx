@@ -7,11 +7,11 @@ import { RiGithubFill, RiFolder3Line } from "@remixicon/react";
 const projects = [
   {
     title: "Chat GPT",
-    description: "A ChatGPT-inspired AI chatbot built with the MERN stack, Backend and Frontend.",
-    tech: "MERN PROJECT",
+    description: "A ChatGPT-inspired AI chatbot built with the MERN stack, Backend and Frontend.Right now it is not in working state because i didnt deployed it. But you can check the code and run it on your local machine.",
+    tech: "MERN PROJECT ",
     image: "/Images/chatgpt.png",
     githubUrl: "https://github.com/hassaanonlinux-sudo/Chat-GPT",
-    liveUrl: "#",
+    liveUrl: "zesty-cupcake-b4a056.netlify.app",
   },
   {
     title: "SPACE X UI/UX CLONE",
@@ -19,7 +19,7 @@ const projects = [
     tech: "REACT / TAILWIND",
     image: "/Images/SPACEX.png",
     githubUrl: "https://github.com/hassaanonlinux-sudo/Space-x",
-    liveUrl: "#",
+    liveUrl: "elegant-maamoul-c738ce.netlify.app",
   },
   {
     title: "JOB  APP ",
@@ -27,7 +27,7 @@ const projects = [
     tech: "REACT / TAILWIND",
     image: "/Images/JOB.png",
     githubUrl: "https://github.com/hassaanonlinux-sudo/JOB-APP",
-    liveUrl: "#", // Add your live demo links here if you have them
+    liveUrl: "zesty-entremet-d3176b.netlify.app", // Add your live demo links here if you have them
   },
   {
     title: "Career Dashboard",
@@ -35,7 +35,7 @@ const projects = [
     tech: "REACT / TAILWIND",
     image: "/Images/career.png",
     githubUrl: "https://github.com/hassaanonlinux-sudo/Career-PK",
-    liveUrl: "#",
+    liveUrl: "luminous-mousse-cef1f3.netlify.app",
   },
   {
     title: "E-COMMERCE ADMIN DASHBOARD",
@@ -43,7 +43,7 @@ const projects = [
     tech: "REACT / TAILWIND",
     image: "/Images/ecommerce.png",
     githubUrl: "https://github.com/hassaanonlinux-sudo/E-Commerce-Admin-Panel",
-    liveUrl: "#",
+    liveUrl: "majestic-dragon-da29f4.netlify.app",
   },
   
 ];
