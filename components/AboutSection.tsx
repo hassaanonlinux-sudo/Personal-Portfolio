@@ -31,7 +31,7 @@ export default function AboutSection() {
       className="lg:min-h-[65vh] w-full flex flex-col lg:flex-row items-center justify-center px-6 md:px-12  py-20 lg:py-20 select-none scroll-mt-20"
     >
       {/* Left side text container */}
-      <div className="left w-full lg:max-w-xl mr-12 ">
+      <div className="left w-full lg:max-w-xl lg:mr-12">
         <div className="heading flex justify-start items-center">
           {/* Made header highly visible, clean, and bold */}
           <h1 className="text-3xl md:text-5xl font-bold text-font">/ about me</h1>
