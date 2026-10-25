@@ -13,7 +13,7 @@ const projects = [
     tech: "MERN PROJECT ",
     image: "/Images/chatgpt.png",
     githubUrl: "https://github.com/hassaanonlinux-sudo/Chat-GPT",
-    liveUrl: "https://zesty-cupcake-b4a056.netlify.app",
+    liveUrl: "https://chat-ui-eight-peach.vercel.app/",
   },
   {
     title: "SPACE X UI/UX CLONE",
