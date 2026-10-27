@@ -161,7 +161,7 @@ export default function AboutSection() {
         
         
         <div className="line-about-me text-base md:text-lg pt-5 w-full lg:w-[90%] text-(--second-color-font) text-justify leading-relaxed">
-          <p>In my free time, I like to play football, and love to play Chess and I am very ambitious about Solving World Problems Like Elon Musk😉. And play battle royale games too.</p>
+          <p>In my free time, I like to play football, and love to play Chess . And play battle royale games too.</p>
         </div>
       </div>
 

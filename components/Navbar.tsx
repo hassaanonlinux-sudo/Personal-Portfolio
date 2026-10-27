@@ -17,7 +17,7 @@ export default function Navbar() {
             
             {/* 1. Brand Logo Group */}
             <div className="flex items-center gap-6 md:gap-10">
-                <a href="/" className="logo font-bold text-xl hover:text-hover whitespace-nowrap">Hassaan Naveed</a>
+                <Link href="/" className="logo font-bold text-xl hover:text-hover whitespace-nowrap">Hassaan Naveed</Link>
                 
                 {/* 💻 LAPTOP/DESKTOP LINKS: Visible on md/lg displays, completely hidden on mobile (hidden md:flex) */}
                 <ul className="hidden md:flex gap-4 md:gap-6">
@@ -35,15 +35,15 @@ export default function Navbar() {
 
             {/* 2. LAPTOP/DESKTOP SOCIALS: Hidden on phone viewports (hidden md:flex) */}
             <div className="socials hidden md:flex gap-4">
-                <a href="mailto:hassaanonlinux@gmail.com" className="hover:text-hover">
+                <Link href="mailto:hassaanonlinux@gmail.com" className="hover:text-hover">
                     <Mail />
-                </a>
-                <a href="https://github.com" className="hover:text-hover">
+                </Link>
+                <Link href="https://github.com" className="hover:text-hover">
                     <RiGithubFill size={25} />
-                </a>
-                <a href="https://linkedin.com" className="hover:text-hover">
+                </Link>
+                <Link    href="https://linkedin.com" className="hover:text-hover">
                     <RiLinkedinBoxFill />
-                </a>
+                </Link>
             </div>
 
             {/* 📱 MOBILE NAVIGATION TRIGGER: This menu icon button only appears on small screens (md:hidden) */}
@@ -71,15 +71,15 @@ export default function Navbar() {
                     </ul>
                     
                     <div className="flex gap-6 justify-center items-center pt-4 border-t border-(--border-color)">
-                        <a href="mailto:hassaanonlinux@gmail.com" className="hover:text-hover">
+                        <Link href="mailto:hassaanonlinux@gmail.com" className="hover:text-hover">
                             <Mail size={24} />
-                        </a>
-                        <a href="https://github.com" className="hover:text-hover">
+                        </Link>
+                        <Link href="https://github.com" className="hover:text-hover">
                             <RiGithubFill size={28} />
-                        </a>
-                        <a href="https://linkedin.com" className="hover:text-hover">
+                        </Link>
+                        <Link    href="https://linkedin.com" className="hover:text-hover">
                             <RiLinkedinBoxFill size={24} />
-                        </a>
+                        </Link>
                     </div>
                 </div>
             )}
